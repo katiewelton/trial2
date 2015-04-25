@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+
+body {
+	font-family: "JosefinSlab", Georgia, serif;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #7EA0B7;
+	color: #151F2a;
+	text-align: center;
+}
+h1{
+	font-size: 45px;
+	color: #eff1f3;
+	padding: 20px;
+}
+h2{
+	font-size: 35px;
+	color: #eff1f3;
+	padding: 10px;
+}
+header, nav, .container{
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+}
+nav a{
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+	color: #151f2a;
+}
+nav a:hover {
+	color: #eff1f3;
+}
+img.swirl {
+	max-width: 800px;
+}
+div.thumbnail {
+	width: 25%;
+	float: left;
+	height: 240px;
+	padding:5px;
+	position: relative;
+}
+img.section {
+	max-width: 100%;
+	height: auto;
+}
+a.down{
+	position: absolute;
+	bottom: 25px;
+	right: 5px;
+}
+#Canyon{
+	background-image: url(../images/Canyon.jpg);
+}
+#Fence {
+	background-image: url(../images/Fence.jpg);
+}
+#Sky {
+	background-image: url(../images/Sky.jpg);
+}
+#Tree {
+	background-image: url(../images/Tree.jpg);
+}
+.scroll {
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position:relative;
+}
+h3 {
+	position: absolute;
+	bottom: 20px;
+	font-size: 65px;
+	color: #eff1f3;
+	width: 100%;
+}
